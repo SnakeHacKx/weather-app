@@ -3,7 +3,7 @@ import fs from "fs";
 import axios from "axios";
 
 class Search {
-  history = ["Panamá", "San Jose", "Tegucigalpa"];
+  history = [];
 
   dbPath = "./db/database.json";
 
